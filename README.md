@@ -3,8 +3,9 @@
 
 一键食用
 ```
-sh <(curl -fsSL https://raw.githubusercontent.com/zrlhk/alpine-hysteria2/main/install.sh)
+wget -O install.sh https://raw.githubusercontent.com/zrlhk/alpine-hysteria2/main/install.sh --no-check-certificate && sh install.sh
 ```
+重复执行，会覆盖密码。
 
 说明：
 配置文件：/etc/hysteria/config.yaml
@@ -14,5 +15,6 @@ sh <(curl -fsSL https://raw.githubusercontent.com/zrlhk/alpine-hysteria2/main/in
 重启 service hysteria restart
 
 测试环境：  alpine 3.19.1
+
 
 
