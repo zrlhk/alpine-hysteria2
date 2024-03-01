@@ -16,5 +16,9 @@ wget -O install.sh https://raw.githubusercontent.com/zrlhk/alpine-hysteria2/main
 
 测试环境：  alpine 3.19.1
 
+hy2官方：
+https://github.com/apernet/hysteria
+
+![Alt text](image.png)
 
 
