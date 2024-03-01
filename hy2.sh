@@ -78,7 +78,7 @@ service hysteria start
 #启动hy2
 #/usr/local/bin/hysteria  server --config /etc/hysteria/config.yaml &
 
-echo "------------------------------------"
+echo "------------------------------------------------------------------------"
 echo "hysteria2已经安装完成"
 echo "默认端口： 40443 ， 密码为： $GENPASS ，工具中配置：tls，SNI为： bing.com"
 echo "配置文件：/etc/hysteria/config.yaml"
@@ -86,3 +86,4 @@ echo "已经随系统自动启动"
 echo "看状态 service hysteria status"
 echo "重启 service hysteria restart"
 echo "请享用。"
+echo "------------------------------------------------------------------------"
