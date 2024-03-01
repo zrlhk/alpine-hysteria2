@@ -2,7 +2,9 @@
 在alpine中安装hysteria2
 
 一键食用
+```
 sh <(curl -fsSL https://raw.githubusercontent.com/zrlhk/alpine-hysteria2/main/install.sh)
+```
 
 说明：
 配置文件：/etc/hysteria/config.yaml
